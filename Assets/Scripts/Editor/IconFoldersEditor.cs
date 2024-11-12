@@ -31,7 +31,7 @@ namespace Dennis.Tools.MineralEditor
                 Object selectedObject = EditorGUIUtility.GetObjectPickerObject();
                 string folderIconGuid = AssetDatabase.GUIDFromAssetPath(AssetDatabase.GetAssetPath(selectedObject)).ToString();
 
-                EditorPrefs.SetString(selectedFolderGuid, folderIconGuid);
+                MineralPrefs.SetString(selectedFolderGuid, folderIconGuid);
             }
         }
 

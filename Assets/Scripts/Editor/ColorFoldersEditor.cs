@@ -25,7 +25,7 @@ namespace Dennis.Tools.MineralEditor
             Rect folderRect = GetFolderRect(selectionRect, out backgroundColor);
 
             // Retrieve the icon GUID from EditorPrefs
-            string iconGuid = EditorPrefs.GetString(guid, "");
+            string iconGuid = MineralPrefs.GetString(guid, "");
 
             // Return if no valid icon is set
             // "00000000000000000000000000000000" is a specific value in Unity that represents an invalid or empty GUID.
@@ -57,7 +57,7 @@ namespace Dennis.Tools.MineralEditor
             string iconGuid = AssetDatabase.GUIDFromAssetPath(iconPath).ToString();
 
             // Save the icon GUID in EditorPrefs for the selected folder
-            EditorPrefs.SetString(folderGuid, iconGuid);
+            MineralPrefs.SetString(folderGuid, iconGuid);
 
             // Update the stored icon name
             s_iconName = iconName;
@@ -73,7 +73,7 @@ namespace Dennis.Tools.MineralEditor
             if (string.IsNullOrEmpty(folderGuid)) return;
 
             // Remove the saved icon GUID from EditorPrefs
-            EditorPrefs.DeleteKey(folderGuid);
+            MineralPrefs.DeleteKey(folderGuid);
         }
 
         /// <summary>
