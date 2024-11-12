@@ -9,7 +9,7 @@ namespace Dennis.Tools.MineralEditor
     [InitializeOnLoad]
     public static class MineralPrefs
     {
-        public const string dataPath = "Assets/MineralData.txt";
+        const string dataPath = "Assets/CustomFolderIcons/Data/MineralData.txt";
         static MineralData dataObject;
 
         static MineralPrefs()

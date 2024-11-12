@@ -53,7 +53,7 @@ namespace Dennis.Tools.MineralEditor
 
             // Construct icon path and retrieve its GUID
             // Demo Use
-            string iconPath = "Assets/Icons/Colored/" + iconName + ".png";
+            string iconPath = "Assets/CustomFolderIcons/Icons/Colored/" + iconName + ".png";
             string iconGuid = AssetDatabase.GUIDFromAssetPath(iconPath).ToString();
 
             // Save the icon GUID in EditorPrefs for the selected folder
