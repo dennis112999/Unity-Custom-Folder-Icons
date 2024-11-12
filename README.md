@@ -1,6 +1,9 @@
-# Unity Custom Menu for Folder Icons
+# Unity Custom Folder Icons
 
 A Unity editor tool that adds custom menu items for managing folder icons in the Unity project window. This tool allows you to assign custom icons to folders, set default icons, and reset icons as needed. The menu items are located under the `Assets > Mineral` menu.
+
+![image](https://github.com/user-attachments/assets/3e778909-3cad-4d36-9d36-24917cb62479)
+
 
 ## Features
 
