@@ -12,6 +12,8 @@ A Unity editor tool that adds custom menu items for managing folder icons in the
 - **Customizable Icon Color Options**: Easily set specific colors (e.g., red) as folder icons for better organization.
 - **Persistent Storage**: Icon preferences are saved between Unity sessions using JSON serialization.
 
+For detailed setup, usage, and advanced configurations, please refer to the [Wiki](https://github.com/dennis112999/Unity-Custom-Folder-Icons/wiki).
+
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome to improve functionality, add new features, or fix bugs.
